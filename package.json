@@ -1,0 +1,34 @@
+{
+  "name": "react-source",
+  "version": "1.0.0",
+  "description": "🔨 从0开始写React源码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuiyiming1998/react-source.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuiyiming1998/react-source/issues"
+  },
+  "homepage": "https://github.com/cuiyiming1998/react-source#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "commitlint": "^17.3.0",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin,": "link:@typescript-eslint/eslint-plugin,",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
