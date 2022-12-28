@@ -5,10 +5,12 @@ export type Props = any
 export type ElementType = any
 
 export interface ReactElementType {
-  $$typeof: Symbol | number
+  $$typeof: symbol | number
   type: ElementType
   key: Key
   ref: Ref
   props: Props
   __mark: string
 }
+
+export type Action<State> = State | ((prevState) => State)
