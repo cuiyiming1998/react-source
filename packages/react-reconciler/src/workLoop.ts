@@ -6,7 +6,7 @@ import { HostRoot } from './workTags'
 let workInProgress: FiberNode | null = null // 正在工作的fiberNode
 
 function prepareFreshStack(root: FiberRootNode) {
-  workInProgress = createWorkInProgress(root.current)
+  workInProgress = createWorkInProgress(root.current, {})
 }
 
 export function scheduleUpdateOnFiber(fiber: FiberNode) {

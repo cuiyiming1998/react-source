@@ -31,6 +31,7 @@ export const enqueueUpdate = <Action>(
   updateQueue.shared.pending = update
 }
 
+// 计算fiber最终状态
 export const processUpdateQueue = <State>(
   baseState: State,
   pendingUpdate: Update<State> | null
